@@ -1,0 +1,27 @@
+Model: baseline_cnn
+Checkpoint: C:\Users\TUF\OneDrive\Semester 5\ADM\Final Project\models\baseline_cnn_best.pth
+Val Accuracy: 0.9919
+Val Loss: 0.0666
+Validation samples: 2100
+
+              precision    recall  f1-score   support
+
+     Label 0     1.0000    0.9929    0.9964       140
+     Label 1     0.9859    1.0000    0.9929       140
+     Label 2     0.9928    0.9857    0.9892       140
+     Label 3     1.0000    0.9929    0.9964       140
+     Label 4     0.9790    1.0000    0.9894       140
+     Label 5     0.9929    1.0000    0.9964       140
+     Label 6     0.9929    1.0000    0.9964       140
+     Label 7     1.0000    0.9929    0.9964       140
+     Label 8     0.9858    0.9929    0.9893       140
+     Label 9     0.9857    0.9857    0.9857       140
+    Label 10     0.9929    1.0000    0.9964       140
+    Label 11     0.9928    0.9786    0.9856       140
+    Label 12     1.0000    0.9857    0.9928       140
+    Label 13     0.9928    0.9786    0.9856       140
+    Label 14     0.9858    0.9929    0.9893       140
+
+    accuracy                         0.9919      2100
+   macro avg     0.9920    0.9919    0.9919      2100
+weighted avg     0.9920    0.9919    0.9919      2100

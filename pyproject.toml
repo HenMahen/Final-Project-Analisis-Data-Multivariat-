@@ -1,0 +1,17 @@
+[project]
+name = "chinese-char-classification"
+version = "0.1.0"
+description = "Mandarin Chinese Character Classification"
+requires-python = ">=3.10"
+
+[tool.pyrefly]
+search-path = [
+    "src",
+    "."
+]
+
+[tool.pyright]
+extraPaths = [
+    "src",
+    "."
+]

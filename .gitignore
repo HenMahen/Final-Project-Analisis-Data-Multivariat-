@@ -1,0 +1,74 @@
+
+# Byte-compiled / optimized / DLL files (Python Cache)
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Text Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+
+# Dataset (Direktori gambar mentah)
+data_latih/train/
+data_latih/val/
+data_latih/test/
+*.zip
+*.tar.gz
+*.7z
+!data_latih/*.csv
+
+
+*.pth
+*.pt
+*.onnx
+*.h5
+*.bin
+*.ckpt
+
+
+# Konfigurasi & riwayat evaluasi model tetap di-track
+!models/*.json
+
+
+# Output Prediksi Sementara & Submission
+outputs/predictions/*
+!outputs/predictions/.gitkeep
+
+# Log files & testing cache
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
